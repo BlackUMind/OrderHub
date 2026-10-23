@@ -1,6 +1,7 @@
 using OrderHub.Domain;
+using System.Collections.Generic;
 namespace OrderHub.Services;
-
+using System.Linq;
 public class OrderService
 {
     private readonly List<Order> allOrders = new();
@@ -57,6 +58,40 @@ public class OrderService
         {
             Console.WriteLine(action.ToString());
         }
+    }
+
+    LinkedList<Order> orderHistory = new();
+    LinkedListNode<Order>? current = new(null);
+
+    public void InitHistory(params Order[] orders)
+    {
+        orderHistory.Clear();
+        foreach( var order in orders)
+        {
+            current=orderHistory.AddLast(order);
+        }
+    }
+    public bool PlaceOrderAfterCurrent(Order order)
+    {
+        if(current==null) { InitHistory(); }
+        current = orderHistory.AddAfter(current, order);
+
+        return true;
+    }
+
+    public bool TryFindOrder(string customerName, out Order? order)
+    {
+        order = orderHistory.FirstOrDefault(o => o.CustomerName == customerName);
+        return order != null;
+    }
+    public void PrintHistory()
+    {
+        foreach ( var order in orderHistory)
+        {
+            Console.WriteLine(order);
+        }
+
+        Console.WriteLine($"Текущий заказ: {current?.Value}");
     }
 
 };

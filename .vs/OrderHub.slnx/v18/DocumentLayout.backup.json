@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|solutionrelative:orderhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|c:\\users\\\u0430\\source\\repos\\orderhub\\orderhub\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|solutionrelative:orderhub\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|c:\\users\\\u0430\\source\\repos\\orderhub\\orderhub\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|solutionrelative:orderhub\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|c:\\users\\\u0430\\source\\repos\\orderhub\\orderhub\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC35AFE8-0726-EB0D-48DA-B75881F035AC}|OrderHub\\OrderHub.csproj|solutionrelative:orderhub\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\\u0430\\source\\repos\\OrderHub\\OrderHub\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "OrderHub\\Services\\OrderService.cs",
               "ToolTip": "C:\\Users\\\u0430\\source\\repos\\OrderHub\\OrderHub\\Services\\OrderService.cs",
               "RelativeToolTip": "OrderHub\\Services\\OrderService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAIA0wFUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T13:44:15.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\\u0430\\source\\repos\\OrderHub\\OrderHub\\Domain\\Order.cs",
               "RelativeDocumentMoniker": "OrderHub\\Domain\\Order.cs",
               "ToolTip": "C:\\Users\\\u0430\\source\\repos\\OrderHub\\OrderHub\\Domain\\Order.cs",
               "RelativeToolTip": "OrderHub\\Domain\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T13:24:27.027Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "OrderHub\\Program.cs",
               "ToolTip": "C:\\Users\\\u0430\\source\\repos\\OrderHub\\OrderHub\\Program.cs",
               "RelativeToolTip": "OrderHub\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T12:23:36.927Z",
               "EditorCaption": ""
