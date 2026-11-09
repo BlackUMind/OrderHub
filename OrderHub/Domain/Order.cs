@@ -6,11 +6,11 @@ namespace OrderHub.Domain;
 public class Order
 {
     private static int IdCount = 0;
-    public int Id { get; }
-    public string CustomerName { get; }
-    public string ProductName { get; }
-    public decimal Price { get; }
-    public DateTime CreatedAt { get; }
+    public int Id { get; init; }
+    public string CustomerName { get; init; }
+    public string ProductName { get; init; }
+    public decimal Price { get; init; }
+    public DateTime CreatedAt { get; init; }
     public Order(string customerName,string productName, decimal price)
     {
         IdCount++;
